@@ -9,13 +9,13 @@ def send_whatsapp_message(msg:str):
     try:#طريقة بهندل بيها exceptions  بشكل مودرن
 
 #pywhatkit.sendwhatmsg_instantly(
-            #phone_no= "+0201145070573" ,
+            #phone_no= "+02********73" ,
         # message=msg ,
     #tab_close = True 
         #) #send to phone no.
 
 
-        pywhatkit.sendwhatmsg_to_group_instantly("CJRjyJBgX2F7Yx2mGYor3r",
+        pywhatkit.sendwhatmsg_to_group_instantly("****group_id****",
         message=msg ,
         tab_close = True 
         ) #send to group 
